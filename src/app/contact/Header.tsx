@@ -77,6 +77,7 @@ export default function Header() {
             </Link>
             <Link href="/destinations" onClick={() => setMenuOpen(false)} className={`transition-colors duration-300 ${textColor}`}>
               Destinations
+    
             </Link>
             <Link href="/tours" onClick={() => setMenuOpen(false)} className={`transition-colors duration-300 ${textColor}`}>
               Tours
